@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: wheat;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0;
+}
+    
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: white;
+}
+
+#nav-bar{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+#nav-bar ul{
+    padding: 0;
+    list-style:none;
+    
+}
+
+#nav-bar li{
+    list-style: none;
+    
+    
+}
+.container-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+#nav-bar a{
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+
+#show-case{
+    background-image: url(../img/pika.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#show-case h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding: 50px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    
+    background-color: peachpuff;
+    color: rgb(200, 59, 127);
+    
+    
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: rgb(238, 251, 141);
+    color: plum;
+    
+    padding: 10px;
+    
+}
+
+#main-footer{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: solid white 1px;
+    height: 500px;
+
+}
+
+@media(max-width:600px){
+   
+        #main{
+            width: 100%;
+            float: none;
+        }
+    
+        #sidebar{
+            width: 100%;
+            float: none;
+    }
+    
+}
